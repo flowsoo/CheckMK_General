@@ -1,6 +1,6 @@
 Hallo,
 
-anbei erhalten Sie unseren Kostenvoranschlag für die Vorbereitung, Installation und den Betrieb eines Checkmk-Überwachungssystems für den Kunden SPRINT.
+anbei erhalten Sie unseren Kostenvoranschlag für die Vorbereitung, Installation und den Betrieb eines Checkmk-Überwachungssystems für den Kunden <xxxxxx>.
 
 Hinweis: Es ist eine genaue Bestandsaufnahme alle zu überwachenden Geräte erforderlich (Gerätetyp, Hersteller usw.).
 
@@ -17,7 +17,7 @@ Dies basiert auf die folgende Aktivitäten:
 
 ** 1. PROJEKTÜBERBLICK
 
-Bereitstellung eines Checkmk-IT-Überwachungssystems für SPRINT.
+Bereitstellung eines Checkmk-IT-Überwachungssystems für <xxxxxx>
 
 Installation des Checkmk-Überwachungsservers, Erstkonfiguration, Einbindung der vereinbarten Überwachungsziele, Konfiguration der Benachrichtigungen, Tests und Dokumentation.
 
