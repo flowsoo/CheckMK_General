@@ -1,0 +1,187 @@
+Hallo,
+
+anbei erhalten Sie unseren Kostenvoranschlag für die Vorbereitung, Installation und den Betrieb eines Checkmk-Überwachungssystems für den Kunden SPRINT.
+
+Hinweis: Es ist eine genaue Bestandsaufnahme alle zu überwachenden Geräte erforderlich (Gerätetyp, Hersteller usw.).
+
+Unser Ressourcenschätzung sieht wie folgt aus:
+
+Vorbereitung und Installation von Checkmk:                | ** 15 Personentage ** |
+Betrieb und Wartung – Personentage pro Monat             | ** 2 Personentage  ** |
+
+
+Dies basiert auf die folgende Aktivitäten:
+
+- - - - - - - - - - -
+
+
+** 1. PROJEKTÜBERBLICK
+
+Bereitstellung eines Checkmk-IT-Überwachungssystems für SPRINT.
+
+Installation des Checkmk-Überwachungsservers, Erstkonfiguration, Einbindung der vereinbarten Überwachungsziele, Konfiguration der Benachrichtigungen, Tests und Dokumentation.
+
+---
+
+* 2. LEISTUNGSUMFANG
+
+Die Installation umfasst die folgenden Tätigkeiten.
+
+*** 2.1 Projektvorbereitung und -planung
+
+Zu den Tätigkeiten gehören:
+
+* Projektgespräche.
+* Abstimmung der Überwachungsanforderungen.
+* Überprüfung der bestehenden IT-Umgebung.
+* Festlegung die Überwachungsziele und -umfänge.
+* Ermittlung die erforderlichen Netzwerkanbindung.
+* Ermittlung die erforderlichen Firewall-Regeln und Ports.
+* Abstimmung die administrativen Zugriff Anforderungen.
+* Abstimmung die Benachrichtigungsanforderungen.
+* Definition die Überwachung und Benachrichtigung Anforderungen.
+* Erstellung des Implementierungsplans.
+* Abstimmung des Wartungs-/Implementierungsfensters (sofern erforderlich).
+
+
+
+---
+
+*** 2.2 INSTALLATION DES CHECKMK-SERVERS
+
+Zu den Tätigkeiten gehören:
+
+* Installation des Checkmk-Servers auf dem vereinbarten Betriebssystem/der vereinbarten Plattform.
+* Installation der erforderlichen Checkmk-Software/Version.
+* Erstkonfiguration des Systems.
+* Konfiguration von Hostname, DNS und Netzwerkeinstellungen nach Bedarf.
+* Konfiguration der Zeitsynchronisation.
+* Konfiguration der erforderlichen Systemdienste.
+* Erstellung der ersten Checkmk-Instanz (Site).
+* Konfiguration des grundlegenden administrativen Zugriffs.
+* Überprüfung der Betriebsbereitschaft des Checkmk-Servers.
+
+---
+
+*** 2.3 NETZWERK- UND FIREWALL-KONFIGURATION
+
+> Änderungen an der Firewall, am Routing sowie Modifikationen der Netzwerkinfrastruktur liegen im Verantwortungsbereich des Netzwerk-/IT-Teams des Kunden.
+
+* Netzwerk-Routing.
+* DNS-Auflösung. * Konnektivität zwischen Checkmk und den überwachten Systemen.
+* SNMP-Konnektivität.
+* Agenten-Konnektivität.
+* HTTPS/HTTP-Konnektivität (sofern zutreffend).
+* Konnektivität zu Benachrichtigungsdiensten.
+
+---
+
+*** 2.4 KONFIGURATION DER ZU ÜBERWACHENDEN HOSTS
+
+Es wird von folgenden Arten von Überwachungszielen ausgegangen:
+
+| Überwachungsziel     | Überwachungsmethode |
+| -------------------- | ------------------- |
+| Windows-Server       | Checkmk-Agent       |
+| Linux/Unix-Server    | Checkmk-Agent       |
+| Netzwerk-Switches    | SNMP                |
+| USV-Systeme          | SNMP                |
+
+
+Zu den Tätigkeiten gehören:
+
+* Hinzufügen von Hosts zu Checkmk.
+* Konfiguration der Host-Eigenschaften.
+* Installation/Bereitstellung von Checkmk-Agenten (sofern zutreffend).
+* Konfiguration von SNMP-Zugangsdaten (sofern zutreffend).
+* Konfiguration von Zugangsdaten für die Überwachung.
+* Service-Erkennung (Service Discovery).
+* Auswahl und Konfiguration relevanter Services.
+* Anwendung geeigneter Host-/Service-Parameter.
+* Zuweisung von Hosts zu entsprechenden Host-Gruppen.
+* Konfiguration von Ordnern/Tags nach Bedarf.
+* Erste Validierung der überwachten Services.
+
+
+---
+
+*** 2.5 KONFIGURATION DER ÜBERWACHUNG
+
+Die Konfiguration der Überwachung erfolgt gemäß dem Standard-Implementierungsmodell des Produkts Checkmk:
+
+
+---
+
+*** 2.6 ALARMIERUNG UND BENACHRICHTIGUNGEN
+
+Konfiguration der vereinbarten Benachrichtigungsmechanismen, zum Beispiel:
+
+* E-Mail-Benachrichtigungen.
+* Benachrichtigungsempfänger.
+* Grundlegende Benachrichtigungsregeln.
+* Host-/Service-Filterung.
+* Behandlung von Benachrichtigungen bei kritischen Zuständen/Warnungen.
+
+
+> Weitere Benachrichtigungs-Integrationen von Drittanbietern sind nicht enthalten.
+
+---
+
+
+*** 2.7 TESTS UND INBETRIEBNAHME
+
+Die Tests umfassen:
+
+* Funktionalität des Checkmk-Servers.
+* Konnektivität der Überwachung.
+* Agenten-Konnektivität.
+* SNMP-Konnektivität.
+* Service-Erkennung.
+* Validierung des Überwachungsstatus.
+* Tests der Alarmgenerierung.
+* Tests der E-Mail-Benachrichtigung (sofern zutreffend).
+* Validierung ausgewählter überwachter Geräte.
+
+
+---
+
+*** 2.8 DOKUMENTATION UND ÜBERGABE
+
+Folgende Dokumentation wird bereitgestellt:
+
+* Details zum Checkmk-Server.
+* Übersicht der Überwachungsarchitektur.
+* Liste der überwachten Hosts.
+* Übersicht der Überwachungskonfiguration.
+* Übersicht der Benachrichtigungskonfiguration.
+* Informationen zu administrativen Zugängen.
+* Grundlegende Betriebsanweisungen.
+
+
+* 3. GESCHÄTZTER ARBEITSAUFWAND – INSTALLATION
+
+
+| **Geschätzte Gesamtdauer**               | ** 15 Personentage ** |
+
+*** Schätzgrundlage
+
+Die Schätzung basiert auf folgenden Annahmen:
+
+* Insgesamt 200 überwachte Hosts – überwiegend Netzwerkgeräte.
+* Standard-Monitoring-Funktionalität von Checkmk.
+* Standard-Checkmk-Agenten / SNMP-Monitoring.
+* Der Kunde stellt die erforderlichen Administrator-Zugangsdaten bereit.
+* Der Kunde stellt die erforderlichen Netzwerk-/Firewall-Zugriff bereit.
+* Kundenressourcen stehen bei Bedarf zur Verfügung.
+
+
+-----------------------------------------------------------------------
+
+* 4. GESCHÄTZTER ARBEITSAUFWAND – MONATLICHER BETRIEB
+
+Betrieb und Wartung – Personentage pro Monat    | ** 2 Personentage ** |
+
+-----------------------------------------------------------------------
+
+Die Schätzung basiert auf den Standardanforderungen und -konfigurationen für das CheckMK-Monitoring.
+Alle weiteren Arbeiten müssen gesondert geschätzt werden.
