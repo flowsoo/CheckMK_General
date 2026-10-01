@@ -1,0 +1,132 @@
+Check KM Aktivtäten 
+
+Basiert auf ~200 hosts monitored.
+
+---
+
+## 1. Problemlösung
+
+Reaktion auf Checkmk-Warnungen, Tickets und gemeldete Plattformprobleme.
+
+i) Untersuchung des Problems.
+ii) Identifizierung und Behebung der zugrunde liegenden Ursache.
+iii) Reparatur betroffener Checkmk-Dienste, Agenten, Plugins, Integrationen, Benachrichtigungen oder verteilter Standorte.
+iv) Behebung von Konfigurations-, Kommunikations-, Authentifizierungs- oder Ressourcenproblemen.
+v) Überprüfung der Funktion nach der Fehlerbehebung.
+vi) Dokumentation wesentlicher Probleme und ihrer Lösung.
+
+
+---
+
+## 2. Konfigurations- und Änderungsverwaltung
+
+Änderungen an der Checkmk-Konfiguration implementieren.
+
+i) Hosts und Dienste hinzufügen, entfernen oder ändern.
+ii) Host-/Dienstparameter, Labels, Regeln und Abhängigkeiten ändern.
+iii) Benachrichtigungs-, Kontakt- und Wartungskonfigurationen ändern.
+iv) Genehmigte Infrastruktur- und Discovery-Änderungen verarbeiten.
+v) Veraltete Konfigurationen entfernen.
+vi) Konfigurationsänderungen validieren und aktivieren.
+
+
+---
+
+## 3. Agenten, SNMP & Erweiterungen
+
+Überwachungskomponenten warten, wenn Änderungen oder Probleme ein Eingreifen erfordern.
+
+i) Checkmk-Agenten und Agenten-Plugins installieren oder aktualisieren.
+ii) Agent-Bakery-Konfiguration und Bereitstellungen verwalten.
+iii) SNMP konfigurieren oder ändern, einschließlich SNMPv3, falls zutreffend.
+iv) Genehmigte Plugins und MKPs installieren, aktualisieren oder entfernen.
+v) Checks verwalten.
+vi) Fehlerhafte oder inkompatible Überwachungskomponenten reparieren.
+
+
+---
+
+## 4. Integrationen & Benachrichtigungen
+
+Externe Schnittstellen und Benachrichtigungsmechanismen verwalten.
+
+i) Integrationen und API-Verbindungen hinzufügen oder ändern.
+ii) Anmeldeinformationen, Token, Endpunkte und Authentifizierung verwalten.
+iii) Fehlerhafte Integrationen oder Special Agents reparieren.
+iv) E-Mail-/SMTP- und andere Benachrichtigungsziele verwalten.
+v) Benachrichtigungsregeln, Kontaktgruppen und Eskalationseinstellungen ändern.
+
+---
+
+## 5. Verteilte Überwachung
+
+
+i) Remote-Standorte hinzufügen, entfernen oder ändern.
+ii) Standortkommunikation und -synchronisierung verwalten.
+iii) Probleme mit der verteilten Überwachung oder Livestatus beheben.
+iv) Failover-Konfiguration pflegen.
+
+---
+
+## 6. Updates, Patches & Sicherheit
+
+Genehmigte Wartungsarbeiten an der Checkmk-Plattform durchführen.
+
+i) Relevante Checkmk-Updates und Sicherheitshinweise prüfen.
+ii) Kompatibilität von Erweiterungen und Anpassungen vor Updates berücksichtigen.
+iii) Backup-/Wiederherstellungsmöglichkeiten vor wichtigen Updates sicherstellen.
+iv) Genehmigte Checkmk-Updates und -Patches anwenden.
+v) Erforderliche Standort- oder Komponenten-Updates durchführen.
+vi) Update-bezogene Probleme beheben.
+vii) Zertifikate und Anmeldeinformationen bei Bedarf erneuern oder ersetzen.
+viii) Relevante Sicherheitsmaßnahmen innerhalb des Leistungsumfangs umsetzen.
+
+---
+
+## 7. Datensicherung & Wiederherstellung
+
+Die Wiederherstellbarkeit der Checkmk-Plattform sicherstellen.
+
+i) Backup-Konfiguration, -Ziele und -Aufbewahrungsdauer verwalten.
+ii) Backup-Fehler untersuchen und beheben.
+iii) Geplante Wiederherstellungstests durchführen.
+iv) Konfigurations- oder Site-Komponenten bei Bedarf wiederherstellen.
+v) Wiederherstellungsergebnisse überprüfen.
+vi) Wiederherstellungsdokumentation bei Änderungen der Verfahren aktualisieren.
+
+---
+
+## 8. Benutzer- & Zugriffsverwaltung
+
+Zugriffsänderungen nach Bedarf vornehmen.
+
+i) Autorisierte Benutzer erstellen, ändern oder entfernen.
+ii) Rollen, Berechtigungen und Kontaktgruppen verwalten.
+iii) API- und Automatisierungsbenutzer verwalten.
+iv) LDAP/AD oder andere Authentifizierungsintegrationen pflegen.
+v) Anmeldeinformationen und Token bei Bedarf rotieren oder entfernen.
+vi) Wesentliche Zugriffsänderungen dokumentieren.
+
+---
+
+## 9. Leistung & Kapazität
+
+Leistungs-, Kapazitäts- und Bereinigungsanforderungen reagieren implementieren
+
+i) Leistungs- oder Kapazitätsprobleme von Checkmk untersuchen und beheben.
+ii) Konfiguration, Checks oder Plugins bei Bedarf optimieren.
+iii) Speicher-, Protokoll- oder Ressourcenprobleme beheben, die Checkmk beeinträchtigen.
+iv) Veraltete Hosts, Dienste, Benutzer, Plugins und Konfigurationen entfernen.
+v) Angemessene Protokoll- und Datenaufbewahrung sicherstellen.
+vi) Konfiguration nach der Außerbetriebnahme bereinigen.
+
+---
+
+## 10. Dokumentation
+
+Dokumentation aktualisieren, wenn administrative Tätigkeiten oder Änderungen die bestehende Dokumentation beeinflussen.
+
+i) Relevante Konfigurations-, Architektur- und Integrationsdokumentation aktualisieren.
+ii) Plugin- und Anpassungsdokumentation aktualisieren.
+iii) Dokumentation zu Zugriff, Benachrichtigung und Wiederherstellung aktualisieren.
+iv) Änderungen, Vorfälle, bekannte Ausnahmen und vereinbarte Workarounds protokollieren.
